@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    color: bisque;
+}
+
+a:link{
+    color:bisque;
+}
+
+a:visited{
+    color:beige;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 50vh;
+    width: 50vw;
+    
+    margin: 0% auto;
+
+    background-color: grey;
+}
+
+
+
+/*
+Index
+*/ 
+
+
+.main-section h1{
+    font-size: 5em;
+    margin-bottom: 1%;
+}
+
+h2{
+    font-size: 3em;
+    margin: 0%;
+}
+
+
+#nav a{
+    font-size: 3em;
+}
+
+
+/*
+About
+*/
+
+#about{
+    height: 100vh;
+    padding: 5%;
+}
+
+#about p{
+    margin: 0% auto;
+    font-size: 2em;
+}
+
+#about h1{
+    font-size: 3em;
+}
+
+/*
+Works
+*/
+
+#Works{
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#Works li{
+    list-style: none;
+    font-size: 3em;
+
+}
