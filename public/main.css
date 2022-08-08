@@ -82,3 +82,27 @@ Works
     font-size: 3em;
 
 }
+
+/*
+Gallery
+*/
+
+#gallery{
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+#gallery img:nth-child(2){
+    display: none;
+    height: 50%;
+    width: 40%;
+}
+
+#gallery img:nth-child(3){
+    display: none;
+    height: 50%;
+    width: 40%;
+}
